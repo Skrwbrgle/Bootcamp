@@ -7,19 +7,67 @@
     <link href="dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- Home section start -->
-    <section id="home">
+    <!-- Header strat -->
+    <header class="bg-gradient-to-t from-colorBg bg-transparent absolute top-0 left-0 w-full flex item-center z-10">
       <div class="container">
-        <div
-          class="flex flex-wrap bg-gradient-to-t from-colorBg bg-blend-multiply"
-        >
-          <img src="dist/img/banner.png" alt="banner" class="absolute" />
-          <div class="W-full self-center px-4 h-14">
-            <h1 class="text-base font-bold text-colorText">Bacain</h1>
+        <div class="px-1 mt-32 lg:mt-2">
+          <a href="#" class="text-base font-medium text-slate-700 bg-white py-1 px-3 pb-2 rounded-full">Top Manga</a>
+          <a href="#" class="text-base font-medium text-slate-700 bg-white py-1 px-3 rounded-full">Top Manhua</a>
+          <a href="#" class="text-base font-medium text-slate-700 bg-white py-1 px-3 rounded-full">Top Manhwa</a>
+        </div>
+        <div class="flex item-center justify-between relative lg:bg-gradient-to-t from-colorBg">
+          <div class="px-4 -pt-1">
+            <a href="#home" id="scrollnav" name="scrollnav" class="scroll-nav scroll-smooth font-bold text-lg text-colorText block py-6 md:text-2xl lg:text-4xl">Bacain</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="scroll-nav block absolute right-4 md:hidden lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-1 bg-colorBg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:bg-transparent md:max-w-full lg:block lg:bg-transparent lg:max-w-full lg:bg-colorBg">
+              <ul class="block min-w-full-fu bg-colorBg md:flex lg:flex lg:shadow-none lg:rounded-none">
+                <li class="group">
+                  <a href="#home" class="text-base text-colorText py-2 mx-8 flex group-hover:text-indigo-500">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#list-komik" class="text-base text-colorText py-2 mx-8 flex group-hover:text-indigo-500">List Komik</a>
+                </li>
+                <li class="group">
+                  <a href="#genre" class="text-base text-colorText py-2 mx-8 flex group-hover:text-indigo-500">Genre</a>
+                </li>
+                <li class="group">
+                  <a href="#category" class="text-base text-colorText py-2 mx-8 flex group-hover:text-indigo-500">Category</a>
+                </li>
+                <li class="group">
+                  <a href="#bookmark" class="text-base text-colorText py-2 mx-8 flex group-hover:text-indigo-500">Bookmark</a>
+                </li>
+                <li class="group">
+                  <a href="#recent" class="text-base text-colorText py-2 mx-8 flex group-hover:text-indigo-500">Recent</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        </div>
+      </header>
+    <!-- Header end -->
+
+    <!-- Home section start -->
+    <section id="home" class="bg-colorBg">
+      <div class="container relative h-screen">
+        <img class="w-full lg:max-h-96 lg:object-top absolute" src="dist/img/banner.png" alt="banner"/>
+        <div class="w-full flex flex-wrap py-3 pr-1 lg:pl-1">
+          <div class="self-center pl-1 mt-36 lg:mt-1 md:mt-1">
+            <h1 class="text-base text-colorText"><span class="block">Hot Update</span></h1>
+          </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Home section end -->
+
+    <script src="dist/js/script.js"></script>
   </body>
 </html>
