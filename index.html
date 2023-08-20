@@ -48,7 +48,7 @@
           >
             <a
               href="#login"
-              class="block text-colorText bg-indigo-500 py-1 px-3 mx-0 rounded-lg group-hover:text-indigo-500"
+              class="block text-colorText bg-indigo-500 py-1 px-3 mx-0 rounded-lg group-hover:text-indigo-300"
               >Login</a
             >
             <div class="relative mx-1 left-0 lg:right-px">
@@ -61,7 +61,7 @@
               />
               <button
                 type="submit"
-                class="block absolute top-0 -right-4 p-2.5 text-sm font-medium bg-gray-50 rounded-r-lg border hover:bg-indigo-500 focus:outline-none focus:ring-blue-300"
+                class="block absolute top-0 -right-4 p-2.5 text-sm font-medium bg-gray-50 rounded-r-lg border hover:text-indigo-500 focus:outline-none focus:ring-blue-300"
               >
                 <svg
                   class="w-4 h-4"
@@ -114,7 +114,10 @@
               id="nav-menu"
               class="hidden absolute py-1 rounded-lg max-w-[250px] w-full right-4 top-full md:block md:bg-transparent md:max-w-full lg:block lg:bg-transparent lg:max-w-full"
             >
-              <a href="#home" class="absolute w-full ml-9 text-colorText">
+              <a
+                href="#home"
+                class="absolute w-full ml-9 text-colorText opacity-0 md:opacity-100 lg:opacity-100"
+              >
                 <svg
                   role="img"
                   width="40"
@@ -132,7 +135,7 @@
                 class="block min-w-full bg-colorBg md:flex lg:-py-1 md:px-16 lg:px-16 lg:flex lg:shadow-none lg:rounded-none"
               >
                 <li class="group">
-                  <div class="relative mx-2 md:hidden lg:right-px">
+                  <div class="relative py-2 md:hidden lg:right-px">
                     <input
                       type="search"
                       id="search-dropdown"
@@ -142,7 +145,7 @@
                     />
                     <button
                       type="submit"
-                      class="block absolute top-0 -right-4 p-2.5 text-sm font-medium bg-gray-50 h-full border rounded-r-lg borderhover:bg-indigo-500 focus:outline-none focus:ring-blue-300"
+                      class="block absolute py-2 mt-[10px] mr-9 top-0 -right-4 p-2.5 text-sm font-medium bg-gray-50 border rounded-r-lg borderhover:bg-indigo-500 focus:outline-none hover:text-indigo-500 focus:ring-blue-300"
                     >
                       <svg
                         class="w-4 h-4"
@@ -221,15 +224,22 @@
     <!-- Header end -->
 
     <!-- Home section start -->
-    <!-- <section id="home">
-      <div class="container w-full">
-        <div class="w-full flex flex-wrap">
-            <h1 class="text-base text-colorText"><span class="block">Hot Update</span></h1>
-          </div>
-          </div>
+    <section
+      id="home"
+      class="mt-2 md:mx-3 md:mt-32 lg:mx-24 lg:mt-28 items-center"
+    >
+      <div
+        class="container px-2 lg:px-4 bg:mx-16 relative place-content-center max-w-full"
+      >
+        <div
+          class="block px-2 md:grid md:mr-14 lg:grid my-5 mr-14 w-full grid-rows-3 grid-flow-col gap-4"
+        >
+          <div class="bg-slate-500 row-span-3 col-span-4">01</div>
+          <div class="bg-slate-500 row-span-1 col-span-4">02</div>
+          <div class="bg-slate-500 row-span-4 col-span-2">03</div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- Home section end -->
 
     <script src="dist/js/script.js"></script>
