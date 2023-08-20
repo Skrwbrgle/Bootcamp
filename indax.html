@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .banner {
+            background-image: url('/dist/img/banner.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+    </style>
+    <title>Website Statis dengan Background Gambar Banner</title>
+</head>
+<body>
+    <div class="banner">
+        <header class="py-4 px-8 bg-gray-900 text-white">
+            <h1 class="text-4xl font-semibold">Nama Website Anda</h1>
+            <p class="mt-2">Deskripsi singkat tentang website Anda.</p>
+        </header>
+        <main class="py-16 px-8">
+            <!-- Konten website Anda di sini -->
+            <div class="max-w-md w-full bg-white border rounded-lg shadow-md p-4">
+                <input
+                  type="text"
+                  placeholder="Cari..."
+                  class="w-full border rounded-md px-3 py-2 focus:outline-none focus:ring focus:border-blue-300"
+                />
+                <button
+                  class="bg-blue-500 text-white px-4 py-2 rounded-md ml-2 hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+                >
+                  Cari
+                </button>
+              </div>
+        </main>
+        <footer class="py-4 px-8 bg-gray-900 text-white text-center">
+            &copy; 2023 Nama Website Anda. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
