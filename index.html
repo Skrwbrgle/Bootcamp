@@ -11,6 +11,7 @@
     <link href="dist/output.css" rel="stylesheet" />
   </head>
   <body class="bg-colorBg">
+    <!-- bg-banne -->
     <div class="w-full md:w-auto">
       <img
         class="w-full h-[100px] object-cover object-top md:h-96 md:min-w-fit md:object-cover lg:object-cover"
@@ -226,58 +227,696 @@
     <!-- Home section start -->
     <section
       id="home"
-      class="mt-2 md:mx-3 md:mt-32 lg:mx-24 lg:mt-28 items-center"
+      class="mt-2 md:mx-3 md:mt-32 lg:mx-24 lg:mt-28 place-content-center"
     >
       <div
-        class="container px-2 lg:px-4 bg:mx-16 relative place-content-center max-w-full"
+        class="container mx-auto px-2 lg:px-4 bg:mx-16 relative place-content-center"
       >
-        <div class="lg:grid grid-cols-3 gap-4">
+        <div class="w-full lg:grid lg:grid-cols-3 gap-4 place-content-center">
           <!-- Left Column -->
-          <div class="col-span-2 grid grid-rows-2 gap-4 p-4 rounded-lg">
-              <div class="text-colorText lg:text-2xl p-4 rounded-md">Hot Komik Uodate<span
+          <div class="col-span-2 grid grid-rows-1 gap-4 p-3 lg:my-3 w-full">
+            <div class="text-colorText lg:h-fit lg:text-2xl p-4 rounded-md">
+              Hot Komik Uodate<span
                 class="w-full h-[1.5px] -mx-1 my-2 block bg-gray-500"
-                ></span>
-                <!-- content -->
-                <div class="flex gap-3">
-                  <div class="max-w-sm w-1/2 rounded-lg overflow-hidden shadow-lg bg-colorBg">
-                    <img class="w-full" src="dist/img/img1.png" alt="Comic Thumbnail">
-                    <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Comic Title</div>
-                        <p class="text-gray-400 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              ></span>
+              <div class="w-auto">
+                <!-- content hot update -->
+                <div
+                  class="grid grid-cols-2 row-span-1 md:grid-cols-4 md:w-auto lg:grid-cols-5 mt-6 gap-4 w-auto lg:w-full"
+                >
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img1.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
                     </div>
-                    <div class="px-6 py-4">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">4.5 ★</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">123 Reviews</span>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
                     </div>
                   </div>
-                  <div class="max-w-sm w-1/2 rounded-lg overflow-hidden shadow-lg bg-colorBg">
-                    <img class="w-full" src="dist/img/img1.png" alt="Comic Thumbnail">
-                    <div class="px-6 py-4">
-                        <div class="font-bold text-xl mb-2">Comic Title</div>
-                        <p class="text-gray-400 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img2.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
                     </div>
-                    <div class="px-6 py-4">
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">4.5 ★</span>
-                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">123 Reviews</span>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img1.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
+                    </div>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img2.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
+                    </div>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img1.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
+                    </div>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img2.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
+                    </div>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img1.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
+                    </div>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img2.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
+                    </div>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img1.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
+                    </div>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                  >
+                    <img
+                      class="w-full"
+                      src="dist/img/img2.png"
+                      alt="Comic Thumbnail"
+                    />
+                    <div class="px-4 py-4">
+                      <div class="font-bold text-xl mb-2">Comic Title</div>
+                      <p class="text-gray-400 text-base">Chapter 400</p>
+                    </div>
+                    <div class="px-4 py-2">
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-slate-50 mr-2"
+                        ><span class="text-yellow-400">★★★★★</span> 4.5</span
+                      >
+                      <span
+                        class="inline-block -ml-2.5 px-3 py-1 text-sm font-semibold text-gray-400"
+                        >123 Reviews</span
+                      >
                     </div>
                   </div>
                 </div>
               </div>
-                
+            </div>
 
             <!-- content update -->
-            <div class="text-colorText lg:text-2xl p-4 rounded-md">
+            <div class="text-colorText lg:min-w-min lg:text-2xl p-4 rounded-md">
               Komik Update<span
                 class="w-full h-[1.5px] -mx-1 my-2 block bg-gray-500"
-              ></span></div>
+              ></span>
+              <div
+                class="grid md:grid-cols-2 row-span-1 lg:max-h-max lg:grid-flow-cols mt-6 gap-4 w-full"
+              >
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col flex-auto justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- Right Column -->
-          <div class="col-span-1 p-4 rounded-lg">
-              <div class="text-colorText lg:text-2xl p-4 rounded-md"><div
+          <div class="col-span-1 place-end p-4 rounded-lg">
+            <div class="text-colorText lg:text-2xl p-4 rounded-md">
+              <div
                 class="flex place-items-center mb-12 justify-items-center gap-x-8 mx-5"
               >
                 <div
-                  class="flex items-center justify-center md:auto lg:w-full -ml-6 gap-4 w-1/2"
+                  class="flex items-center justify-center md:auto lg:w-full -ml-6 gap-4 w-full"
                 >
                   <a href="#"
                     ><img src="dist/img/discord.png" alt="discord"
@@ -288,7 +927,7 @@
                       width="80"
                       viewBox="0 0 24 24"
                       color="#26A5E4"
-                      class="fill-current w-11 md:w-auto lg:w-16 sticky"
+                      class="fill-current w-10 md:w-auto lg:w-16 sticky"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <title>Telegram</title>
@@ -298,13 +937,443 @@
                     </svg>
                   </a>
                 </div>
-              </div>Serial Populer<span
-              class="w-full h-[1.5px] -mx-1 my-2 block bg-gray-500"
-            ></span></div>
+              </div>
+              Serial Populer<span
+                class="w-full h-[1.5px] -mx-1 my-2 block bg-gray-500"
+              ></span>
+              <div
+                class="grid md:grid-cols-2 row-span-1 lg:max-h-max lg:grid-flow-cols mt-6 gap-4 w-full"
+              >
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col flex-auto justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img1.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex max-w-sm w-auto rounded-lg overflow-hidden shadow-lg bg-colorBg"
+                >
+                  <img
+                    class="max-w-lg"
+                    src="dist/img/img2.png"
+                    alt="Comic Thumbnail"
+                  />
+                  <div>
+                    <div class="px-4 pt-4 pb-1">
+                      <div class="font-bold text-xl">Comic Title</div>
+                    </div>
+                    <div
+                      class="flex flex-col justify-between mx-3 px-2 py-4 lg:mx-2"
+                    >
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 400 </a
+                        >6 hours ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 399 </a
+                        >2 days ago
+                      </p>
+                      <p class="text-xs py-1 mx-2 text-slate-400">
+                        <a
+                          href="#"
+                          class="inline-block bg-slate-500 mx-6 -ml-2.5 px-3 py-1 rounded-md text-gray-50 text-sm"
+                        >
+                          Ch. 398 </a
+                        >3 days ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
     </section>
     <!-- Home section end -->
+
+    <!-- footer start -->
+    <!-- footer end -->
 
     <script src="dist/js/script.js"></script>
   </body>
